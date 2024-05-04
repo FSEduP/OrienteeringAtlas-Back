@@ -130,7 +130,7 @@ Crear una aplicación que permita a los usuarios gestionar mapas utilizados en e
 Para acceder a la documentación con swagger hay que acceder a través de la siguiente ruta:
 
 ```
-https://localhost/3000/api-docs
+https://orienteeringatlas.up.railway.app/api-docs/
 ```
 
 <br>
