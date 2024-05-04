@@ -53,7 +53,7 @@ const MapController = {
     try {
       await Map.findByIdAndUpdate(req.params.id, req.body);
       res.status(200).json({ message: 'Mapa actualizado correctamente' });
-    } catch (err) {
+    } catch (error) {
       console.log(error) 
     }
   },

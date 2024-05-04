@@ -89,8 +89,8 @@ module.exports = {
             liga: {
               type: "string",
               description: "League of the map",
-              enum: ['LIGA ANDALUZA DE ORIENTACIÓN (L.A.O.)', 'LIGA ANDALUZA DE RAID DE AVENTURA', 'LIGA ESPAÑOLA DE ORIENTACIÓN (L.E.O.)', 'LIGA ESPAÑOLA DE RAID DE AVENTURA'],
-              example: "LIGA ESPAÑOLA DE ORIENTACIÓN (L.E.O.)"
+              enum: ['Nacional', 'Autonómica', 'Provincial', 'City Race Euro Tour', 'WRE', 'Sureste', 'Norte', 'Otro'],
+              example: "Nacional"
             },
           },
         },
